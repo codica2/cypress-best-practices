@@ -77,7 +77,7 @@ For example, after login we need to include access token in the server response,
 ```fixtures/login.json```
 ```json
 {
-      "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdwpMeJf36POk6yJV_adQssw5c"
 }
 ```
 Or return users data after GET request to ```/users``` page 
@@ -86,12 +86,8 @@ Or return users data after GET request to ```/users``` page
 ```json
 { 
   "data": [
-    { "id": 1, "attributes": { "name": "John", "email": "john@snow.qwe", "id": 1
-      }
-    },
-    { "id": 2, "attributes": { "name": "Ned", "email": "ned@stark.com", "id": 2
-      }
-    }
+    { "id": 1, "attributes": { "name": "John", "email": "john@snow.qwe", "id": 1 } },
+    { "id": 2, "attributes": { "name": "Ned", "email": "ned@stark.com", "id": 2  } }
   ]
 }
 ```
