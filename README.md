@@ -67,8 +67,8 @@ describe("Home", () => {
     cy.url().should("include", "/login");
   });
 });
-
 ```
+[More examples](examples/)
 ## Fixtures examples
 Fixtures Load a fixed set of data located in a file.
 It is very useful if you want to stub server response.
