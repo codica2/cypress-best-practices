@@ -3,7 +3,7 @@
 
 [Cypress](https://www.cypress.io/how-it-works/) is an all-in-one testing framework, assertion library, with mocking and stubbing, all without Selenium.
 ## Cypress installation
-Cypress is realy easy to install, just use your packege mannager:
+Cypress is realy easy to install, just use your package manager:
 npm
 ```sh
 npm install cypress --save-dev
@@ -29,7 +29,7 @@ While there’s nothing wrong with writing out the full path to the Cypress exec
  ```sh
  npm run cypress:open
  ```
-## Setting up Ci
+## Setting up CI
 Configure Cypress in CI is almost the same as running it locally. You generally only need to do two things:
 
 * Install Cypress
@@ -41,7 +41,7 @@ npm install cypress --save-dev
 cypress run
 ```
 ## Feature tests examples
-Cypress use pretty simple DSL for writing tests
+Cypress uses pretty simple DSL for writing tests
 
 ```js
 describe("Home", () => {
@@ -70,9 +70,9 @@ describe("Home", () => {
 ```
 [More examples](examples/)
 ## Fixtures examples
-Fixtures Load a fixed set of data located in a file.
+Fixtures load a fixed set of data located in a file.
 It is very useful if you want to stub server response.
-For example, after login we need to include access token in the server response, we will create a file
+For example, after login we need to include access token in the server response, we will create a file:
 
 ```fixtures/login.json```
 ```json
